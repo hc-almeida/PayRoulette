@@ -23,7 +23,7 @@ class CheckoutController {
     
     weak var delegate: CheckoutControllerDelegate?
     
-//    let fecthOrder: [Order] = Bundle.main.decode("Account.json")
+//    let fecthOrder: [Order] = Bundle.main.decode("Account.json") test
     
     var count: Int {
         return order?.productList.count ?? 0
